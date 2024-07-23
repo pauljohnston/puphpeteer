@@ -4,9 +4,6 @@
 
 [![PHP Version](https://img.shields.io/packagist/php-v/zoon/puphpeteer.svg?style=flat-square)](http://php.net/)
 [![Composer Version](https://img.shields.io/packagist/v/zoon/puphpeteer.svg?style=flat-square&label=Composer)](https://packagist.org/packages/zoon/puphpeteer)
-[![Node Version](https://img.shields.io/node/v/@zoon/puphpeteer.svg?style=flat-square&label=Node)](https://nodejs.org/)
-[![NPM Version](https://img.shields.io/npm/v/@zoon/puphpeteer.svg?style=flat-square&label=NPM)](https://www.npmjs.com/package/@nesk/puphpeteer)
-[![Build Status](https://img.shields.io/travis/zoon/puphpeteer.svg?style=flat-square&label=Build%20Status)](https://travis-ci.org/nesk/puphpeteer)
 
 A [Puppeteer](https://github.com/GoogleChrome/puppeteer/) bridge for PHP, supporting the entire API. Based on [Rialto](https://github.com/zoonru/rialto/), a package to manage Node resources from PHP.
 
@@ -61,7 +58,7 @@ Install it with these two command lines:
 
 ```shell
 composer require zoon/puphpeteer
-npm install github:zoonru/puphpeteer
+npm install git+https://github.com/zoonru/puphpeteer.git
 ```
 
 ## Notable differences between PuPHPeteer and Puppeteer
