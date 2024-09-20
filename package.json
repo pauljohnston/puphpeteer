@@ -17,12 +17,12 @@
     "url": "https://johann.pardanaud.com/"
   },
   "license": "MIT",
-  "repository": "git+https://github.com/zoonru/puphpeteer.git",
+  "repository": "https://github.com/zoonru/puphpeteer/tarball/zoon",
   "engines": {
     "node": ">=9.0.0"
   },
   "dependencies": {
-    "@zoon/rialto": "git+https://github.com/zoonru/rialto.git#semver:^1.5.0",
+    "@zoon/rialto": "https://github.com/zoonru/rialto/tarball/zoon",
     "puppeteer": "^20"
   },
   "devDependencies": {

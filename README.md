@@ -58,7 +58,7 @@ Install it with these two command lines:
 
 ```shell
 composer require zoon/puphpeteer
-npm install git+https://github.com/zoonru/puphpeteer.git
+npm install https://github.com/zoonru/puphpeteer/tarball/zoon
 ```
 
 ## Notable differences between PuPHPeteer and Puppeteer
