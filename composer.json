@@ -51,8 +51,8 @@
     "post-install-cmd": "npm install",
     "test": "./vendor/bin/phpunit",
     "update-docs": "php bin/console doc:generate",
-    "stan": "vendor/bin/phpstan analyze packages/*/src",
-    "format": "vendor/bin/php-cs-fixer fix"
+    "stan": "vendor/bin/phpstan analyze src",
+    "format": "vendor/bin/php-cs-fixer fix src"
   },
   "config": {
     "sort-packages": true
