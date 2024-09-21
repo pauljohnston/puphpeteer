@@ -150,7 +150,7 @@ class PuphpeteerTest extends TestCase
         $this->markTestIncomplete($reason);
     }
 
-    public function resourceProvider(): \Generator
+    public static function resourceProvider(): \Generator
     {
         $resourceNames = (new ResourceInstantiator([], ''))->getResourceNames();
 

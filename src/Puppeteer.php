@@ -4,7 +4,6 @@ namespace Nesk\Puphpeteer;
 
 use Composer\Semver\Semver;
 use Exception;
-
 use Nesk\Rialto\AbstractEntryPoint;
 use Psr\Log\LoggerInterface;
 use Symfony\Component\Process\Process;

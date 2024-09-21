@@ -28,7 +28,10 @@ final class GenerateDocumentationCommand extends Command
 
     private const DOC_FORMATS = [self::DOC_FORMAT_PHP, self::DOC_FORMAT_PHPSTAN];
 
-    protected static $defaultName = 'doc:generate';
+    public function getName(): ?string
+    {
+        return 'doc:generate';
+    }
 
     protected function configure(): void
     {

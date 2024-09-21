@@ -25,7 +25,7 @@ class TestCase extends BaseTestCase
     {
         parent::setUp();
 
-        $methodName = explode(' ', $this->getName())[0] ?? '';
+        $methodName = explode(' ', $this->name())[0] ?? '';
         $testMethod = new \ReflectionMethod($this, $methodName);
         $docComment = $testMethod->getDocComment();
 
